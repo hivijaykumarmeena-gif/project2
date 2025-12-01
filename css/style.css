@@ -12,7 +12,7 @@
 
 .logo {
   width: 25%;
-  background-color: green;
+  background-color:linear-gradient(to left,red,blue);
 }
 
 .logo a {
