@@ -28,7 +28,7 @@
 }
 .menu {
   width: 75%;
-  background-color: orange;
+  background:linear-gradient(to left bottom,red,blue);
   text-color:black;
   display: flex;
 }
