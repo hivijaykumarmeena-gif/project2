@@ -27,3 +27,9 @@
   width: auto;
   height: auto;
 }
+.menu {
+  width: 75%;
+  background-color: aqua;
+  text-color:white;
+  display: flex;
+}
