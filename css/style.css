@@ -1,3 +1,16 @@
 *{
   margin:0;
+  padding:0;
+  .heaader{
+    height:10%;
+    width:100%
+    background-color:red;
 }
+  .logo{
+    width:25%;
+    background-color:grey;
+  }
+  .logo img{
+    height:auto;
+    width:auto;
+  }
