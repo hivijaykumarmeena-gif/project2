@@ -55,9 +55,7 @@
  
 }
 
-.menu .navbar ul li a:hover {
-  color: white;
-}
+
 .menu .navbar ul li .submenu{
   display:none;
   position:absolute
@@ -68,7 +66,7 @@
   z-index: 10;
   
 }
-.menu .navbar ul li . submenu.ul {
+.menu .navbar ul li . submenu ul {
  display:flex;
 .menu .navbar ul li .submenu ul li{
   color:black;
@@ -76,7 +74,7 @@
   text-decoration:none;
   position:relative;
 }
-.menu .navbar ul li  a:hover{
+.menu .navbar ul li :hover.submenu {
   display:block;
 }
 
