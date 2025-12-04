@@ -1,37 +1,34 @@
 <html>
-  <head>
-    <title>project invent </title>
-    <link rel="stylesheet" href="css/style.css">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  </head>
-  <body>
-    <div class="header">
-      <div class="logo">
-        <a href="">
-          <img src="images/illustrator.png">
-        </a>
-      </div>
-      <div class="menu">
-        <div class="navbar">
-          <ul>
-            <li>
-              <a href="https://" >Home</a>
-            </li>
-            <li>
-              <a href="about.html">About</a>
-            </li>
-            <li>
-              <a href="math.html">facebook</a>
-            </li>
-            <li>
-              <a href="hindi.html">instagarm</a>
-            </li>
-            <li>
-              <a href="english.html" >Acer</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </body>
+    <head>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           <link rel="stylesheet" href="css/style.css"> 
+    </head>
+        <body>
+                <div id="header">
+                </div>
+            <script>
+                fetch("nav.html")
+                .then(response=> response.text())
+                .then(data=>{
+                    document.getElementBYid("header").innerHTML= data;});
+            </script>
+      
+
+           </body> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </html>
