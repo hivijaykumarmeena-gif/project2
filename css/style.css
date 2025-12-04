@@ -75,7 +75,7 @@
   position:relative;
 }
 .dropdown ul li a:hover{
-  display
+  display:block;
 }
 
 
