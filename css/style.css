@@ -58,7 +58,7 @@
 .menu .navbar ul li a:hover {
   color: white;
 }
-.menu .navbar ul li .dropdown{
+.menu .navbar ul li .submenu{
   display:none;
   position:absolute
   background-color:magenta;
@@ -68,15 +68,15 @@
   z-index: 10;
   
 }
-.menu .navbar ul li .dropdown ul {
+.menu .navbar ul li . submenu.ul {
  display:flex;
-.menu .navbar ul li .dropdown ul li{
+.menu .navbar ul li .submenu ul li{
   color:black;
   font-size:1vw;
   text-decoration:none;
   position:relative;
 }
-.menu .navbar ul li .dropdown ul li a:hover{
+.menu .navbar ul li  a:hover{
   display:block;
 }
 
