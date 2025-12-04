@@ -58,23 +58,25 @@
 .menu .navbar ul li a:hover {
   color: white;
 }
-.dropdown{
+.menu .navbar ul li .dropdown{
   display:none;
   position:absolute
   background-color:magenta;
-  min-width: 25%;
+  min-width: 120px;
   border: 1px solid red;
   padding-left:5px;
   z-index: 10;
   
 }
-.dropdown ul li{
+.menu .navbar ul li .dropdown ul {
+ display:flex;
+.menu .navbar ul li .dropdown ul li{
   color:black;
   font-size:1vw;
   text-decoration:none;
   position:relative;
 }
-.dropdown ul li a:hover{
+.menu .navbar ul li .dropdown ul li a:hover{
   display:block;
 }
 
