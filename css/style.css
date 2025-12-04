@@ -71,7 +71,7 @@
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: flex;
 }
 
 .dropdown-content {
