@@ -69,8 +69,9 @@
   position: absolute;
   background-color: green;
   border: 1px solid black;
-  width: 60px;
+  width: auto;
   z-index: 1;
+  height:auto;
 }
 
 .menu .menubar ul li .submenu li {
