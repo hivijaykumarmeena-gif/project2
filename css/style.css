@@ -67,7 +67,7 @@
 .menu .menubar ul li .submenu {
   display: none;
   position: absolute;
-  background-color: magenta;
+  background-color: white;
   border: 1px solid black;
   width: 20px;
   z-index: 1;
