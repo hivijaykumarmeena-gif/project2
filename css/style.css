@@ -1,23 +1,24 @@
-  *{
-  margin:0;
-    padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .header {
   width: 100%;
   height: 10%;
-  background-color: white;
-  display:flex;  
+  background-color: red;
+  display:flex;
 }
 
 .logo {
   width: 25%;
-  background:linear-gradient(to left bottom,red,blue);
+  height: 100%;
+  background-color: blue;
 }
 
 .logo a {
-  width: 100%;
   height: 100%;
+  width: 100%;
   display:flex;
   justify-content: center;
 }
@@ -26,35 +27,44 @@
   width: auto;
   height: auto;
 }
+
 .menu {
   width: 75%;
-  background:linear-gradient(to left bottom,red,blue);
-  text-color:black;
-  display: flex;
+  height: 100%;
+  background-color: red;
 }
-.menu .navbar{
- width:100%;
- height:100%;
+
+.menu .menubar {
+  height: 100%;
+  width: 100%; 
 }
-.menu .navbar ul {
- width:100%;
- height:100%;
- display:flex;
- align-items:center;
- justify-content:space-around;
+
+.menu .menubar ul {
+  width: 100%;
+  height: 100%;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.menu .navbar ul li {
- list-style-type:none;
- padding-bottom:2%;
+
+.menubar ul li {
+  list-style: none;
+  padding-bottom: 3%;
 }
-.menu .navbar ul li a{
-  text-decoration:none;
- color:black;
- font-size:1.5vw;
- position:absolute;
- 
+
+.menubar ul li a {
+  text-decoration: none;
+  color: yellow;
+  font-size: 1.5vw;
+  position: absolute;
 }
-menu .menubar ul li .submenu {
+
+.menu .mobilebar {
+  height: 100%;
+  width: 0%;
+}
+
+.menu .menubar ul li .submenu {
   display: none;
   position: absolute;
   background-color: magenta;
@@ -78,5 +88,3 @@ menu .menubar ul li .submenu {
 .menubar ul li:hover .submenu {
   display: block;
 }
-
-
