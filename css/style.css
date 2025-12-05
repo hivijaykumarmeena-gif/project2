@@ -84,6 +84,7 @@
   font-size: 1vw;
   text-decoration: none;
   position: relative; 
+  white-space:nowrap;
 }
 
 .menubar ul li:hover .submenu {
