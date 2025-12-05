@@ -86,6 +86,7 @@
   font-size: 1vw;
   text-decoration: none;
   position: relative; 
+  display:block;
 }
 
 .menubar ul li:hover .submenu {
