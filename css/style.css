@@ -84,7 +84,7 @@
 
 .menu .menubar ul li .submenu li a{
   color: black;
-  font-size: 0.9rem;
+  font-size: 1vw;
   text-decoration: none;
   position: relative; 
 }
