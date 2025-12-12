@@ -59,7 +59,7 @@
   position: absolute;
 }
 .menu .menubar ul .underline_current > a{
-  text-decoration:underline white;
+  text-decoration:underline red;
 }
 .menu .mobilebar {
   height: 100%;
