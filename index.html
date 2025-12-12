@@ -13,7 +13,10 @@
         document.getElementById("nav").innerHTML = data;
 
         let currentpage = window.location.pathname.split("/").pop();
-        let links = document.queryselectorAll(".menu .menubar.ul.li.a");
+        let links = document.querySelectorAll(".menu .menubar.ul.li.a");
+        if(! curentpage  || currentpage == "#"){
+          currentpage ="index.html";
+        }
         links.forEach(link=> {
           console.log("current page:",currentpage);
           let linkpage= link.getAttribute("href");
