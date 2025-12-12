@@ -11,7 +11,20 @@
       .then(res => res.text())
       .then(data => {
         document.getElementById("nav").innerHTML = data;
+
+        let currentpage = window.location.pathname.split("/").pop();
+        let links = document.queryselectorAll(".menu .menubar.ul.li.a");
+        links.forEach(link=> {
+          console.log("current page:",currentpage);
+          let linkpage= link.getAttribute("href");
+          console.log("Attribute value:", linkpage);
+          if(!linkpage) return;
+          i(linkpage== current page){
+          link.console("li").classlist.add("underline_current");
+          }
       });
+        });
+     
     </script>
   </body>
 </html>
