@@ -83,11 +83,11 @@
   height:100%;
  
 }
-/* .menubar ul > li > a {
+.menubar ul > li > a {
   position: relative;
   padding: 10px 15px;
   text-decoration: none;
-  color: white; */
+  color: white;
 }
 
 /* underline */
