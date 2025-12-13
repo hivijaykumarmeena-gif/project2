@@ -97,8 +97,3 @@
   position: relative; 
   display:block;
 }
-li:hover  a{
-  width:100%;
-  background-color: red;
-  
-}
