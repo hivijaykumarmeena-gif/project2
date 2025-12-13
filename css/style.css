@@ -98,8 +98,7 @@
   color: black;
 }
 
-.menubar ul > li > a::after {
-  content: "";
+.menubar ul > li > a{
   position: absolute;
   left: 0;
   bottom: 0;
@@ -109,7 +108,7 @@
   transition: width 0.4s ease;
 }
 
-.menubar ul > li > a:hover::after {
+.menubar ul > li > a:hover {
   width: 100%;
 }
 
