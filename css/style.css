@@ -85,9 +85,9 @@
 }
 .menubar ul > li > a {
   position: relative;
-  padding: 10px 15px;
+  padding: 5px 5px;
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 /* underline */
