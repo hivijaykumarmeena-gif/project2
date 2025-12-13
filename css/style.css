@@ -84,30 +84,3 @@
  
 }
 
-.menu .menubar ul li .submenu li a{
-  color: yellow;
-  font-size: 1vw;
-  text-decoration: none;
-  position: relative; 
-  display:b.menubar ul > li > a {
-  position: relative;
-  padding: 10px 15px;
-  text-decoration: none;
-  color: black;
-}
-
-.menubar ul > li > a::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 0%;
-  height: 3px;
-  background-color: red;
-  transition: width 0.4s ease;
-}
-
-.menubar ul > li > a:hover::after {
-  width: 100%;
-}
-
