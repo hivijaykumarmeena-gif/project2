@@ -83,4 +83,28 @@
   height:100%;
  
 }
+.menubar ul > li > a {
+  position: relative;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: black;
+}
+
+/* underline */
+.menubar ul > li > a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 3px;
+  background-color: red;
+  transition: width 0.4s ease;
+}
+
+/* hover effect */
+.menubar ul > li > a:hover::after {
+  width: 100%;
+}
+
 
