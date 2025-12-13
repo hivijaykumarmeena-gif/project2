@@ -91,7 +91,7 @@
   position: relative; 
   display:block;
 }
-.menu:hover li a{
+li:hover  a{
   width:100%;
   background-color: red;
   
