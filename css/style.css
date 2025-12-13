@@ -91,7 +91,8 @@
   position: relative; 
   display:block;
 }
-
-.menubar ul li:hover .submenu {
-  display: block;
+.menu:hover li a{
+  width:100%;
+  background-color: red;
+  
 }
