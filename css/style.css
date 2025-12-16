@@ -40,7 +40,7 @@
 }
 
 .menu .menubar ul {
-  width: 100%;
+  width: 90%;
   height: 100%;
   display:flex;
   justify-content: space-around;
@@ -49,14 +49,20 @@
 
 .menubar ul li {
   list-style: none;
-  padding-bottom: 3%;
+  position: relative;
+  height:100%
+  display:flex
+  align-items: center;
 }
 
 .menubar ul li a {
   text-decoration: none;
   color: black;
   font-size: 1.5vw;
-  position: absolute;
+  position: static;
+  height:100%
+  justify-content: center;
+  display:flex;
 }
 .menu .menubar ul .underline_current > a{
   text-decoration:underline red;
