@@ -118,7 +118,7 @@
   color: black;
 }
 
-/* underline */
+
 .menubar ul > li > a::after {
   content: "";
   position: absolute;
@@ -130,8 +130,8 @@
   transition: width 0.4s ease;
 }
 
-/* hover effect */
-/* .menubar ul > li > a:hover::after {
+
+ .menubar ul > li > a:hover::after {
   width: 100%;
 }
 
