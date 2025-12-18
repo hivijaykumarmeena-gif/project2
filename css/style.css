@@ -157,14 +157,14 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    background:white;
+    background:red;
   }
 
   .header .menu .mobilebar .hamburger span {
     display: block;
     width: 20px;
     height: 2px;
-    background: red;
+    background:red;
     border-radius: 2px;
     box-shadow: 0 7px 0 white, 0 -7px 0 white;
   }
