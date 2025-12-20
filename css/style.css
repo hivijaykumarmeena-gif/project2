@@ -34,12 +34,12 @@
   height: 100%;
   background-color:green;
 
-.menu .menubar {
+.header .menu .menubar {
   height: 100%;
   width: 100%; 
 }
 
-.menu .menubar ul {
+.header .menu .menubar ul {
   width: 90%;
   height: 100%;
   display:flex;
