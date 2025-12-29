@@ -38,6 +38,7 @@ fetch("header.html")
 					menu.classList.toggle("mobile-open");
 				});
 			}
+			h
 		}
 	});
 
