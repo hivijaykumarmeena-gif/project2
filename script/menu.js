@@ -1,4 +1,3 @@
-
 fetch("header.html")
 .then(res => res.text())
 .then(data => {
@@ -72,8 +71,6 @@ fetch("header.html")
 										s_submenuExists.classList.remove("open-submenu");
 									}
 								}
-									
-      });
 							});
 							const isOpen = li.classList.toggle("open-submenu");
 							toggle.setAttribute("aria-expanded", isOpen? "true" : "false");
