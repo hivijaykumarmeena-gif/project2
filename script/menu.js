@@ -68,10 +68,17 @@ fetch("header.html")
 								if(s_submenuExists.length > 0){
 									console.log(s_submenuExists);
 									const checkIfOpenAlready = s_submenuExists.classList.toggle("open-submenu");
-									if (checkIfOpenAlready) {
-										s_submenuExists.classList.remove("open-submenu");
-									}
-								}
+									// if (checkIfOpenAlready) {
+									// 	s_submenuExists.classList.remove("open-submenu");
+									// }
+								// }
+									 li.addEventListener("click", function() {
+      // पहले सभी अन्य सबमेनू बंद करें
+      menuList.forEach(otherLi => {
+        if (otherLi !== li) {
+          otherLi.classList.remove("open-submenu");
+        }
+      });
 							});
 							const isOpen = li.classList.toggle("open-submenu");
 							toggle.setAttribute("aria-expanded", isOpen? "true" : "false");
