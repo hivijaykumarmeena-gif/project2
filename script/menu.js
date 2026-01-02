@@ -46,7 +46,7 @@ fetch("header.html")
 			menuList.forEach(li => {
 				// second step --> voh menu items filter karna jisme submenu ho
 				const submenuExists = li.querySelectorAll(".submenu"); // will return undefined or actual value node
-				console.log(submenuExists);
+				// console.log(submenuExists);
 				if (submenuExists.length>0) {
 					li.classList.add("has-submenu");
 					// third step --> identify karna jis menu item pr click hua ho
@@ -63,6 +63,16 @@ fetch("header.html")
 						// fifth step --> submenu display karna jo menu item click hua ho
 						li.addEventListener("click", function (ev) {
 							ev.stopPropagation();
+							menuList.forEach(s_li =>{
+								const s_submenuExists = s_li.querySelectorAll(".submenu");
+								if(s_submenuExists.length > 0){
+									console.log(s_submenuExists);
+									const checkIfOpenAlready = s_submenuExists.classList.toggle("open-submenu");
+									if (checkIfOpenAlready) {
+										s_submenuExists.classList.remove("open-submenu");
+									}
+								}
+							});
 							const isOpen = li.classList.toggle("open-submenu");
 							toggle.setAttribute("aria-expanded", isOpen? "true" : "false");
 						});
@@ -79,4 +89,3 @@ fetch("header.html")
 .catch(err => {
     console.error("Header load failed:", err);
 });
-
