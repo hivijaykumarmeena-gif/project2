@@ -197,6 +197,33 @@
     transform: 0 !important;
     display: none;
   }
+    .menu .menubar ul li .submenu li a {
+    font-size: 1.5rem;
+  }
+  
+  .header .menu .menubar ul li.open-submenu > .submenu {
+    display: block;
+  }
+
+  .submenu-toggle {
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    padding: 0 6px;
+    cursor: pointer;
+  }
+  
+
+
+
+  
+
+
+
+
+
+
+
     
 
 
