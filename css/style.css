@@ -186,6 +186,8 @@
 }
   .header .menu .menubar ul li{ 
     padding: 5% 0;
+    width:100%;
+    justify-content:center;
   }
   .header .menu .menubar ul li a{
     font-size: 1rem;
