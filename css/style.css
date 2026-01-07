@@ -214,6 +214,14 @@
     padding: 0 6px;
     cursor: pointer;
   }
+  body{
+    font-size:16px;
+    background: f9f9f9;
+  }
+  h2{
+    text-algin:center;
+    border-bottom: 2px solid green;
+  }
   
 
 
